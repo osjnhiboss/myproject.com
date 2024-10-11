@@ -1,3 +1,1 @@
-expired.html
-expired.css
-expired.js
+Products expiration date
