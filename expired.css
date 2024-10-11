@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-list {
+    width: 80%;
+    margin: 40px auto;
+}
+
+#product-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#product-table th, #product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#product-table th {
+    background-color: #f0f0f0;
+}
+
+.add-product {
+    width: 80%;
+    margin: 40px auto;
+}
+
+#add-product-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#add-product-form label {
+    margin-bottom: 10px;
+}
+
+#add-product-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#add-product-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-product-btn:hover {
+    background-color: #3e8e41;
+}
+
+.expired {
+    background-color: #ffcccc;
+}
+
+.not-expired {
+    background-color: #ccffcc;
+}

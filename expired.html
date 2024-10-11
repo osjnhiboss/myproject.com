@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expired Product Regulation System</title>
+    <link rel="stylesheet" href="expired.css">
+</head>
+<body>
+    <h1>Expired Product Regulation System</h1>
+    <div class="product-list">
+        <table id="product-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Expiration Date</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="product-tbody">
+                <!-- Products will be listed here -->
+            </tbody>
+        </table>
+    </div>
+    <div class="add-product">
+        <h2>Add Product</h2>
+        <form id="add-product-form">
+            <label for="product-name">Product Name:</label>
+            <input type="text" id="product-name" required>
+            <label for="expiration-date">Expiration Date:</label>
+            <input type="date" id="expiration-date" required>
+            <button id="add-product-btn">Add Product</button>
+        </form>
+    </div>
+
+    <script src="expired.js"></script>
+</body>
+</html>
